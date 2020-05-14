@@ -22,7 +22,6 @@ class Signup extends Component {
     }
     save(){
         this.state.error=""
-        console.log(this.state.userInput);
         for(let i in this.state.userInput){
             if(this.state.userInput[i]===""){
                 this.state.error="Please fill in all fields"
