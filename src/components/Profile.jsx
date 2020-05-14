@@ -4,7 +4,7 @@ class Profile extends Component {
     render() {
         return (
             <div>
-                Profile
+                <h1>{this.props.location.state}</h1>
             </div>
         )
     }
